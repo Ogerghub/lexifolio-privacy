@@ -82,4 +82,4 @@ If this policy is updated, the changes will be posted on this page with an updat
 If you have questions about this privacy policy, please contact:
 
 **Cengiz Oger**
-Email: [your-email@example.com]
+Email: lexifolio.app@gmail.com
