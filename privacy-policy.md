@@ -48,7 +48,7 @@ These features run entirely on your device using Apple Intelligence. No text is 
 
 ## Translation
 
-The App uses Apple's Translation framework to translate saved dictionary words based on your configured language pair (e.g., English → Turkish). Translations are processed by the system Translation service on your device. Language packs may be downloaded by the system when needed.
+The App uses Apple's Translation framework to translate saved dictionary words based on your configured language pair (e.g., English → German). Translations are processed by the system Translation service on your device. Language packs may be downloaded by the system when needed.
 
 ## Camera Access
 

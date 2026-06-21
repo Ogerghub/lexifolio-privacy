@@ -32,7 +32,7 @@ All data (library, dictionary, annotations, reading progress) is stored locally 
 Lexifolio supports **PDF** and **EPUB** with full native reading. Books in other formats (MOBI, DJVU, CBZ, CBR, FB2) are cataloged and opened via the system viewer.
 
 ### How do I set up translations?
-Go to **Settings** → **Language Pairs** to configure your translation languages. You can add up to 5 language pairs (e.g., English → Turkish, German → Turkish). Set one pair as **active** — this determines the translation direction when you save words from the dictionary or reader. Translations use Apple's built-in Translation framework and work offline once language packs are downloaded.
+Go to **Settings** → **Language Pairs** to configure your translation languages. You can add up to 5 language pairs (e.g., English → German, French → German). Set one pair as **active** — this determines the translation direction when you save words from the dictionary or reader. Translations use Apple's built-in Translation framework and work offline once language packs are downloaded.
 
 ### How do I look up word definitions?
 There are two ways to get definitions for saved dictionary words:
