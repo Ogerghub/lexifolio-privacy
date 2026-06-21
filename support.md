@@ -16,7 +16,7 @@ We typically respond within 24–48 hours.
 Tap the **+** button on the bookshelf toolbar, then select PDF or EPUB files from your device, iCloud Drive, or other file providers. You can also add monitored folders that automatically import new books.
 
 ### How do I scan a physical book?
-Tap **Scan** on the toolbar to open the barcode scanner. Point your camera at the book's ISBN barcode (usually on the back cover). The app will look up the book's title, author, and cover from Open Library.
+Tap **Scan** on the toolbar to open the barcode scanner. Point your camera at the book's ISBN barcode (usually on the back cover), or tap **Enter ISBN Manually** to type it in. The app will look up the book's title, author, and cover from Open Library.
 
 ### How do I restore my purchase?
 Go to **Settings** (gear icon on the bookshelf) and tap **Restore Purchase** in the Pro Status section. This will restore your Lexifolio Pro unlock on any device signed in with the same Apple ID.
@@ -40,7 +40,7 @@ There are two ways to get definitions for saved dictionary words:
 - **Wiktionary** (online) — Tap "Look Up Online" to fetch a definition from Wiktionary. Works on any device with an internet connection.
 
 ### How do I back up my data?
-Go to **Settings** → **Backup & Restore** → **Export Backup**. This creates a `.lexifolio` file containing your dictionary, highlights, reading positions, and sessions. Save it to Files, iCloud Drive, or any location you choose. To restore, tap **Import Backup** and select a `.lexifolio` file.
+Go to **Settings** → **Backup & Restore** → **Export Backup**. This creates a `.lexifolio` file containing your full library catalog (book titles, authors, categories, source file paths), dictionary, highlights, reading positions, and sessions. Save it to Files, iCloud Drive, or any location you choose. To restore, tap **Import Backup** and select a `.lexifolio` file. You can also restore from the empty library screen when reinstalling the app.
 
 ### Do I need an internet connection?
 No. The app works fully offline. Internet is only needed for ISBN barcode lookups (Open Library), online word definitions (Wiktionary), and optional OpenAI-powered summaries. On-device AI summaries, dictionary definitions, and translations all work offline.
