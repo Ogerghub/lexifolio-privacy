@@ -31,8 +31,19 @@ All data (library, dictionary, annotations, reading progress) is stored locally 
 ### Which file formats are supported?
 Lexifolio supports **PDF** and **EPUB** with full native reading. Books in other formats (MOBI, DJVU, CBZ, CBR, FB2) are cataloged and opened via the system viewer.
 
+### How do I set up translations?
+Go to **Settings** → **Language Pairs** to configure your translation languages. You can add up to 5 language pairs (e.g., English → Turkish, German → Turkish). Set one pair as **active** — this determines the translation direction when you save words from the dictionary or reader. Translations use Apple's built-in Translation framework and work offline once language packs are downloaded.
+
+### How do I look up word definitions?
+There are two ways to get definitions for saved dictionary words:
+- **Apple Intelligence** (on-device AI) — Tap "Get Definition" on any word. Requires iPad with M1 chip or later running iPadOS 18.1+.
+- **Wiktionary** (online) — Tap "Look Up Online" to fetch a definition from Wiktionary. Works on any device with an internet connection.
+
+### How do I back up my data?
+Go to **Settings** → **Backup & Restore** → **Export Backup**. This creates a `.lexifolio` file containing your dictionary, highlights, reading positions, and sessions. Save it to Files, iCloud Drive, or any location you choose. To restore, tap **Import Backup** and select a `.lexifolio` file.
+
 ### Do I need an internet connection?
-No. The app works fully offline. Internet is only used for ISBN barcode lookups (Open Library) and optional OpenAI-powered summaries. On-device AI summaries, dictionary definitions, and translations all work offline.
+No. The app works fully offline. Internet is only needed for ISBN barcode lookups (Open Library), online word definitions (Wiktionary), and optional OpenAI-powered summaries. On-device AI summaries, dictionary definitions, and translations all work offline.
 
 ### What is the free trial?
 New users get **3 days of free access** to all Pro features (Dictionary, Annotations, Quiz, Statistics, AI Summaries). After the trial, you can unlock them permanently with a one-time purchase.

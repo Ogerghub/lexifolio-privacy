@@ -1,6 +1,6 @@
 # Privacy Policy — Lexifolio
 
-**Last updated:** June 17, 2026
+**Last updated:** June 21, 2026
 
 Lexifolio ("the App") is developed by Cengiz Oger. This privacy policy explains what data the App collects, how it is used, and your choices.
 
@@ -27,13 +27,16 @@ If you choose to use the OpenAI summarization option, your API key is stored sec
 
 ## Network Requests
 
-The App makes network requests only in two specific, user-initiated scenarios:
+The App makes network requests only in the following user-initiated scenarios:
 
 ### 1. ISBN / Barcode Lookup (Open Library)
 When you scan a barcode or enter an ISBN, the App sends the ISBN number to [Open Library](https://openlibrary.org) (a project of the Internet Archive) to retrieve book metadata (title, author, cover image). No personal data is sent — only the ISBN.
 
 ### 2. AI Summaries via OpenAI (Optional)
 If you provide an OpenAI API key and select "OpenAI" as your summary provider, the App sends a portion of the book's text (up to 30,000 characters), along with the book's title and author, to OpenAI's API to generate a summary. **This is entirely optional.** You can use the on-device Apple Intelligence summarization instead, which processes text locally on your device with no network requests.
+
+### 3. Online Dictionary Lookup (Wiktionary)
+When you tap "Look Up Online" for a word definition, the App sends the word to [Wiktionary](https://en.wiktionary.org) to retrieve its definition. No personal data is sent — only the word itself.
 
 ## On-Device AI Features
 
@@ -45,7 +48,7 @@ These features run entirely on your device using Apple Intelligence. No text is 
 
 ## Translation
 
-The App uses Apple's Translation framework to translate saved dictionary words to your device language. Translations are processed by the system Translation service on your device.
+The App uses Apple's Translation framework to translate saved dictionary words based on your configured language pair (e.g., English → Turkish). Translations are processed by the system Translation service on your device. Language packs may be downloaded by the system when needed.
 
 ## Camera Access
 
@@ -64,6 +67,10 @@ The App accesses PDF and EPUB files you select through the system file picker or
 - No location data
 - No contacts, calendar, or health data
 - No data shared with third parties for marketing purposes
+
+## Backup & Restore
+
+You can export your dictionary, highlights, reading positions, and sessions as a `.lexifolio` backup file. This file is saved to a location you choose (e.g., Files app, iCloud Drive). Lexifolio never uploads backups to any server — the file stays wherever you save it.
 
 ## Data Deletion
 
