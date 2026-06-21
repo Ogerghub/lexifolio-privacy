@@ -40,7 +40,7 @@ There are two ways to get definitions for saved dictionary words:
 - **Wiktionary** (online) — Tap "Look Up Online" to fetch a definition from Wiktionary. Works on any device with an internet connection.
 
 ### How do I back up my data?
-Go to **Settings** → **Backup & Restore** → **Export Backup**. This creates a `.lexifolio` file containing your full library catalog (book titles, authors, categories, source file paths), dictionary, highlights, reading positions, and sessions. Save it to Files, iCloud Drive, or any location you choose. To restore, tap **Import Backup** and select a `.lexifolio` file. You can also restore from the empty library screen when reinstalling the app.
+Go to **Settings** → **Backup & Restore** → **Export Backup**. This creates a `.lexifolio` file containing your dictionary, highlights, reading positions, sessions, monitored folder names, and ISBN-scanned books (with covers). Save it to Files, iCloud Drive, or any location you choose. To restore, tap **Import Backup** and select a `.lexifolio` file. You can also restore from the empty library screen when reinstalling the app. Scanned books reappear on your shelf, and you'll be reminded to re-add your monitored folders.
 
 ### Do I need an internet connection?
 No. The app works fully offline. Internet is only needed for ISBN barcode lookups (Open Library), online word definitions (Wiktionary), and optional OpenAI-powered summaries. On-device AI summaries, dictionary definitions, and translations all work offline.

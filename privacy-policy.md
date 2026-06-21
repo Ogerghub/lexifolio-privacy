@@ -70,7 +70,7 @@ The App accesses PDF and EPUB files you select through the system file picker or
 
 ## Backup & Restore
 
-You can export your full library catalog (book titles, authors, categories, source file paths), dictionary, highlights, reading positions, and sessions as a `.lexifolio` backup file. This file is saved to a location you choose (e.g., Files app, iCloud Drive). Lexifolio never uploads backups to any server — the file stays wherever you save it.
+You can export your dictionary, highlights, reading positions, sessions, monitored folder names, and ISBN-scanned books (with covers) as a `.lexifolio` backup file. This file is saved to a location you choose (e.g., Files app, iCloud Drive). Lexifolio never uploads backups to any server — the file stays wherever you save it.
 
 ## Data Deletion
 
