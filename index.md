@@ -1,6 +1,6 @@
 # Privacy Policy — Lexifolio
 
-**Last updated:** June 21, 2026
+**Last updated:** June 24, 2026
 
 Lexifolio ("the App") is developed by Cengiz Oger. This privacy policy explains what data the App collects, how it is used, and your choices.
 
@@ -23,20 +23,20 @@ This data is stored in the App's private sandbox on your device.
 
 ## Keychain Storage
 
-If you choose to use the OpenAI summarization option, your API key is stored securely in the iOS Keychain with device-only protection. It is never shared with anyone other than OpenAI's API when generating summaries.
+If you choose to use the Cloud API summarization option, your API key is stored securely in the iOS Keychain with device-only protection. Each AI provider (OpenAI, Google Gemini, or a custom provider) has its own Keychain entry. Your key is never shared with anyone other than the AI provider you selected when generating summaries.
 
 ## Network Requests
 
-The App makes network requests only in the following user-initiated scenarios:
+The App makes network requests only in three specific, user-initiated scenarios:
 
 ### 1. ISBN / Barcode Lookup (Open Library)
 When you scan a barcode or enter an ISBN, the App sends the ISBN number to [Open Library](https://openlibrary.org) (a project of the Internet Archive) to retrieve book metadata (title, author, cover image). No personal data is sent — only the ISBN.
 
-### 2. AI Summaries via OpenAI (Optional)
-If you provide an OpenAI API key and select "OpenAI" as your summary provider, the App sends a portion of the book's text (up to 30,000 characters), along with the book's title and author, to OpenAI's API to generate a summary. **This is entirely optional.** You can use the on-device Apple Intelligence summarization instead, which processes text locally on your device with no network requests.
+### 2. AI Summaries via Cloud API (Optional)
+If you select "Cloud API" as your summary provider, the App sends the book's extracted text, along with the book's title and author, to the AI provider you select (such as OpenAI or Google Gemini) to generate a summary. For long books, the text is sent in sections and the summaries are combined. You can choose which provider and model to use in Settings. You can also configure a custom OpenAI-compatible endpoint. **This is entirely optional.** You can use the on-device Apple Intelligence summarization instead, which processes text locally on your device with no network requests.
 
-### 3. Online Dictionary Lookup (Wiktionary)
-When you tap "Look Up Online" for a word definition, the App sends the word to [Wiktionary](https://en.wiktionary.org) to retrieve its definition. No personal data is sent — only the word itself.
+### 3. Wiktionary Definition Lookup (Optional)
+When you tap "Look Up Online" for a dictionary word, the App sends the word to [Wiktionary](https://en.wiktionary.org) (a project of the Wikimedia Foundation) to retrieve a definition. No personal data is sent — only the word itself. This is a fallback for devices without Apple Intelligence (on-device AI definitions).
 
 ## On-Device AI Features
 
@@ -48,7 +48,7 @@ These features run entirely on your device using Apple Intelligence. No text is 
 
 ## Translation
 
-The App uses Apple's Translation framework to translate saved dictionary words based on your configured language pair (e.g., English → German). Translations are processed by the system Translation service on your device. Language packs may be downloaded by the system when needed.
+The App uses Apple's Translation framework to translate saved dictionary words based on your configured language pairs (e.g., English → German). You can set up to 5 language pairs in the app. Translations are processed by the system Translation service on your device — no text is sent to any server.
 
 ## Camera Access
 
