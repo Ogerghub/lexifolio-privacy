@@ -45,6 +45,9 @@ Go to **Settings** → **Backup & Restore** → **Export Backup**. This creates 
 ### Do I need an internet connection?
 No. The app works fully offline. Internet is only needed for ISBN barcode lookups (Open Library), online word definitions (Wiktionary), and optional Cloud API summaries (OpenAI, Gemini, or custom). On-device AI summaries, dictionary definitions, and translations all work offline.
 
+### What happens if I delete or move a book file?
+Lexifolio only adds new books when scanning folders — it never automatically removes books from your library. If you delete, move, or rename a file outside the app (e.g., in Files or iCloud Drive), the book will still appear on your shelf but won't be able to open. To clean it up, tap the book and choose **Delete** to remove it from your library. Your dictionary words, highlights, and reading sessions from that book are preserved.
+
 ### What is the free trial?
 New users get **3 days of free access** to all Pro features (Dictionary, Annotations, Quiz, Statistics, AI Summaries). After the trial, you can unlock them permanently with a one-time purchase.
 
